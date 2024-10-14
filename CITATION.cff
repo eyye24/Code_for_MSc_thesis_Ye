@@ -1,0 +1,44 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Workflow on R for MSc thesis "Consequences of early-life
+  flight performance on long-distance migration behavior"
+message: >-
+  This repository contains the workflow on R for all
+  analysis done for the thesis.
+type: dataset
+authors:
+  - given-names: 'Ellen '
+    family-names: Ye
+    email: ellenye@ymail.com
+    orcid: 'https://orcid.org/0000-0002-2236-584X'
+identifiers:
+  - type: doi
+    value: 10.2404/pernis.2010
+    description: GitHub repository for R workflow for MSc thesis
+repository-code: 'https://github.com/eyye24/Code_for_MSc_thesis_Ye'
+abstract: >
+  All code used for data analysis in MSc thesis
+  "Consequences of early_life flight performance on
+  long-distance migration behavior". Including:
+
+      HMM behavioral segmentation
+      Selecting for start and end of migration dates
+      Selecting start of pre-migratory exploration dates
+      Selecting stopover duration periods including pre-migratory exploration
+      Calculating wobble and plots
+      Calculating DBA
+      Calculating angular velocity
+      Plotting rolling mean and variance of quaternions including ACC comparison
+      Calculation of migration metrics (distance, speed, duration)
+keywords:
+  - R
+  - HMM_momentuHMM
+  - GPS
+  - IMU
+license: MIT
+commit: PA000
+version: '0'
+date-released: '2024-10-14'
